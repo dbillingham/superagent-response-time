@@ -7,6 +7,10 @@
     "test": "mocha --require babel-register --require tests/bootstrap.js --recursive 'tests/**/*[tT]est.js'",
     "build": "rm -rf build && babel index.js -d build"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dbillingham/superagent-response-time"
+  },
   "keywords": [
     "responseTime",
     "superagent"
