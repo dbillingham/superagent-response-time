@@ -1,6 +1,6 @@
 # superagent-response-time
 
-  A plugin for superagent that outputs a requests resposne time.
+  A plugin for superagent that outputs a requests response time in milliseconds.
 
 ## Installation
 
@@ -15,7 +15,7 @@ import request from 'superagent';
 import responseTime from 'superagent-response-time';
 
 const callback = (req, time) => {
-  console.log(time); //1800216000.000025
+  console.log(time); //180.25
 }
 
 request

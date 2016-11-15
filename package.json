@@ -1,7 +1,7 @@
 {
   "name": "superagent-response-time",
-  "version": "1.0.2",
-  "description": "Superagent plugin for recording response times.",
+  "version": "1.0.3",
+  "description": "A plugin for superagent that outputs a requests response time in milliseconds.",
   "main": "build/index.js",
   "scripts": {
     "test": "mocha --require babel-register --require tests/bootstrap.js --recursive 'tests/**/*[tT]est.js'",
