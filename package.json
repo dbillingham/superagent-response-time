@@ -1,8 +1,8 @@
 {
   "name": "superagent-response-time",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Superagent plugin for recording response times.",
-  "main": "index.js",
+  "main": "build/index.js",
   "scripts": {
     "test": "mocha --require babel-register --require tests/bootstrap.js --recursive 'tests/**/*[tT]est.js'",
     "build": "rm -rf build && babel index.js -d build"
