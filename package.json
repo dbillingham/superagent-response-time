@@ -1,0 +1,25 @@
+{
+  "name": "superagent-response-time",
+  "version": "1.0.0",
+  "description": "Superagent plugin for recording response times.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --require babel-register --require tests/bootstrap.js --recursive 'tests/**/*[tT]est.js'",
+    "build": "rm -rf build && babel index.js -d build"
+  },
+  "keywords": [
+    "responseTime",
+    "superagent"
+  ],
+  "author": "Dan Billingham <dbillinghamuk@yahoo.co.uk>",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-register": "^6.18.0",
+    "chai": "^3.5.0",
+    "mocha": "^3.1.2",
+    "sinon": "^1.17.6"
+  }
+}
